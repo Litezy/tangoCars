@@ -1,0 +1,267 @@
+
+body {
+    font-family:ubuntu;
+    background-color: #fff;
+}
+h1 {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+hr {
+    margin: 6% 8% 4% 8%;
+    padding: auto;
+    border-bottom: 1px solid #D62AD0;
+}
+h3 {
+    font-family:Archivo, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+p {
+    color: gray;
+}
+em {
+    color: #fff;
+    padding-bottom: 20px;
+    
+
+}
+.card-pricing.popular {
+    z-index: 1;
+    border: 3px solid #007bff;
+}
+.card-pricing .list-unstyled li {
+    padding: .5rem 0;
+    color: #6c757d;
+}
+
+
+/* Navbar, brand and titles*/
+.navbar-brand {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   font-size: 1.5rem;
+   font-weight: lighter;
+}
+.navbar{
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.download {
+    padding-bottom: 20px;
+}
+.nav-item {
+    margin:0 15px;
+}
+.nav-link {
+    font-size: medium;
+}
+.nav-img {
+   margin-top: 50px;
+    width: 100%;
+    mix-blend-mode: darken;
+    position: absolute;
+    left: 15%;
+   
+}
+#title {
+    background-color: #D62AD0;
+    color: #fff;
+}
+
+
+
+/* Container */
+.container-fluid {
+    padding: 3% 8% 7%;
+}
+
+
+
+/* Features Section */
+#features {
+    background-color:#fff;
+    padding: 7% 15%;
+    position: relative;
+   
+}
+
+.box {
+    text-align: center;
+    padding: 2%;
+   
+}
+.icon {
+    margin-bottom: 1rem;
+    color: #D62AD0;
+}
+.icon:hover {
+    color: #781C68;
+}
+   
+
+/* testimonials */
+   #testimonials {
+    text-align: center;
+    padding: 5% 7%;
+    background-color: #D62AD0;
+    color: #fff;
+   }
+   .test-img {
+    padding: 2%;
+    border-radius: 100%;
+    width: 12%;
+
+   }
+   .test-p {
+    font-size: 25px;
+    color: #fff;
+    font-family: Archivo;
+    font-weight: bold;
+    text-align: center;
+   }
+
+   /* LOGOS */
+.logos {
+    background-color: #D62AD0;
+    padding: 1% 6% 3%;
+   
+}
+/* COLLECTIONS */
+
+#collections {
+    text-align: center;
+    background-color: #fff;
+    
+}
+.col-img {
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    mix-blend-mode: darken;
+}
+.car-col {
+    padding-top: 3%;
+    text-decoration: underline;
+    color: #D62AD0;
+}
+.carousel-item {
+    padding: 7% 5%;
+}
+.h-iii {
+    padding: 2% 3%;
+}
+
+
+
+
+
+/* PRICING */
+.price-col {
+    padding: 2% 2%;
+}
+#pricing {
+    text-align: center;
+    background-color: #fff;
+    padding: 4% 10%;
+}
+.price-p {
+    color: gray;
+    font-size: 20px;
+}
+.h-price {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-plan {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #D62AD0;
+}
+.flex {
+    word-spacing: 10px;
+    font-family: lato;
+    font-weight: bold;
+    color: #D62AD0;
+}
+
+.wk{
+    font-family:lobster;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* CTA */
+#cta {
+    text-align: center;
+    padding: 4% 5%;
+    background-color: #D62AD0;
+    
+}
+.find {
+    font-family: lobster;
+    word-spacing: 3px;
+    font-size: 45px;
+}
+ /* FOOTER */
+ #footer {
+    text-align: center;
+    padding: 5rem;
+    background-color: #fff;
+    position: relative;
+ }
+ h4{
+    font-size: 40px;
+    padding-bottom: 10px;
+ }
+ .foot {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #D62AD0;
+    vertical-align: top;
+    font-weight: bold;
+ }
+ .buttons {
+    margin: 2%;
+ }
+.brands{
+   padding: 10px 10px 15px;
+   align-items: baseline;
+}
+
+
+/* MEDIA QUERRIES */
+@media (max-width: 1020px){
+    #title {
+        text-align: center;
+    }
+
+    .nav-img{
+        position: static;
+       
+    }
+}
+
+
+/* FONT FAMILIES */
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Archivo', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'MonteCarlo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* CONTACT ME CSS */
